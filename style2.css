@@ -1,0 +1,131 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header Styles */
+.navbar {
+    background-color: #000;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo img {
+    height: 50px;
+}
+
+.navigation ul {
+    display: flex;
+    gap: 20px;
+}
+
+.navigation a {
+    color: #931818;
+    font-weight: bold;
+}
+
+.user-cart a {
+    color: #fff;
+    margin-left: 20px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('images/bb5ed547808b41df98d33b4607f6a820.jpg') no-repeat center center/cover;
+    text-align: center;
+    padding: 100px 20px;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero .buttons a {
+    background-color: #f9c74f;
+    padding: 15px 30px;
+    border-radius: 30px;
+    margin: 0 10px;
+    font-size: 1rem;
+    color: #000;
+}
+
+.hero .buttons a:hover {
+    background-color: #f9a825;
+}
+
+/* Hot Deals Section */
+.hot-deals {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.hot-deals h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.deal-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.deal-item img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
